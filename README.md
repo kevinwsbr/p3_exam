@@ -12,6 +12,10 @@
 - Consulta por atividade;
 - Relatório de projeto e atividades da unidade acadêmica.
 
+## Diagrama
+
+![](https://github.com/kevinwsbr/p3_exam/blob/master/diagrama.jpg "Diagrama do projeto")
+
 ## Classes
 O sistema foi dividido nas seguintes classes:
 ### Users
@@ -50,7 +54,7 @@ Não houve implementação de interfaces no projeto.
 ## Polimorfismo
 Observa-se o uso de polimorfismo no método `update()` presente na classe `Users` e nas classes que herdam desta. Dessa forma, o método `update()` é escrito em cada "classe filha" com a adição dos campos específicos de cada uma das classes.
 ## Tratamento de Exceções
-Todas as interações com a entrada de dados (validação e pré-processamento) e com a persistência destes no banco de dados têm suas exceções devidamente tratadas como o uso de blocos `try...catch()`.
+Apesar de não ser descrito no diagrama, todas as interações com a entrada de dados (validação e pré-processamento) e com a persistência destes no banco de dados devem ter suas exceções devidamente tratadas como o uso de blocos `try...catch()`.
 
 ## Extensibilidade
 Devido a baixa complexidade, não observou-se o uso de extensibilidade no projeto. Sendo assim, esta não foi implementada.
